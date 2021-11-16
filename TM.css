@@ -126,3 +126,22 @@ input {
     font-size: 18px; 
     color: black;
 }
+#dark {
+    height: 23;
+    width: 20px;
+    font-size: 23;
+    color: white;
+    position: absolute;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+    padding: 3px 5px 3px 3px;
+    margin: 2280px 0 0 680px;
+    box-shadow: 0.1px 0.1px 4px 0.3px #0d2474;
+}
+#dark:hover {
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    box-shadow: 0.8px 0.3px 3px 3px rgb(210, 205, 205);
+}
